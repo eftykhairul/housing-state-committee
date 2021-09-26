@@ -1,10 +1,10 @@
 
 import './App.css';
 import Header from './components/Header/Header';
-import Committee from './components/Committee/Committee' 
+import Committee from './components/Committee/Committee'
 function App() {
   return (
-    <div className="" >
+    <div className="app-js" >  
       <Header></Header>
       <Committee></Committee>
     </div>

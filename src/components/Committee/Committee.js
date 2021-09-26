@@ -6,7 +6,7 @@ import './Committee.css'
 const Committee = () => {
     const [members,setMembers] = useState([]);
     const [cart,setCart]=useState([]);
-    const[name,setName]=useState([]);
+    
 
     useEffect(()=>{
         fetch('./tools.JSON')
@@ -18,8 +18,7 @@ const Committee = () => {
         const newCart=[...cart, member];
         setCart(newCart)
         
-        const newName=[...name,member.name];
-        setName(newName)
+        
         
         
     }
@@ -38,7 +37,7 @@ const Committee = () => {
 
             </div>
             <div className='cart-container'>
-                <Cart cart={cart} name={name}></Cart>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
