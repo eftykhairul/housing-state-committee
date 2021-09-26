@@ -12,6 +12,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.app-js{
+  background-image: url(../src/components/img/fatih-kgqu_qs3B78-unsplash.jpg);
+  background-position: top;
+  background-size: 100% auto;
+  width: 100%;
+}
 
 .App-header {
   background-color: #282c34;
